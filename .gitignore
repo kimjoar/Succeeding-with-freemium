@@ -1,0 +1,9 @@
+tmp/
+.DS_Store
+.inventory
+build/
+dist/
+.swp
+bin/
+Makefile
+doc/

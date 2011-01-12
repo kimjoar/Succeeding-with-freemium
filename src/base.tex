@@ -1,0 +1,31 @@
+\documentclass[12pt,a4paper]{ntnuthesis}
+
+\begin{document}
+  % \chapterstyle{ntnu}
+  \maxsecnumdepth{subsection}
+
+  \pagenumbering{gobble}
+  \maketitle
+  \pagenumbering{roman}
+  \include{abstract}
+  \cleardoublepage
+  \include{preface}
+  \cleardoublepage
+  \tableofcontents* 
+  \listoffigures*
+  \listoftables* 
+  \clearpage
+  \pagenumbering{arabic}
+
+  \include{introduction}
+  \include{context}
+  \include{theory}
+  \include{methodology}
+  \include{presentation}
+  \include{discussion}
+  \include{conclusion}
+
+  \bibliographystyle{plainnat}
+  \bibliography{bibliography}
+
+\end{document}
